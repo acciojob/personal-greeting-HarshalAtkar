@@ -13,7 +13,7 @@ const App = () => {
     <div>
       <label htmlFor="name">Enter your name:</label>
         <input id="name" onKeyUp={coppytext} />
-        {text ? <p>Hello {text}!</p> : null}
+        <p>Hello {text}!</p>
     </div>
   )
 }
