@@ -12,8 +12,8 @@ const App = () => {
   return (
     <div>
       <label htmlFor="name">Enter your name:</label>
-        <input id="name" onKeyup={coppytext} />
-        <p>Hello {text}!</p>
+        <input id="name" onKeyUp={coppytext} />
+        {text ? <p>Hello {text}!</p> : null}
     </div>
   )
 }
