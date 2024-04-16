@@ -11,7 +11,8 @@ const App = () => {
   }
   return (
     <div>
-        <input onKeyup={coppytext} ke />
+      <label htmlFor="name">Enter your name:</label>
+        <input id="name" onKeyup={coppytext} ke />
         <p>{text}</p>
     </div>
   )
